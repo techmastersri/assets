@@ -122,7 +122,7 @@ Ajaxinate.prototype.loadMore = function getTheHtmlOfTheNextPageWithAnAjaxRequest
   }.bind(this);
 
   this.request.open('GET', this.nextPageUrl);
-  this.request.responseType = 'document';
+  //this.request.responseType = 'document';
   this.request.send();
 };
 
